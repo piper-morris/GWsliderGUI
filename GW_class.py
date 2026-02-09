@@ -61,7 +61,7 @@ with open('data/GW190519_data_dict.pkl', 'rb') as f:
 with open('data/simulated_GW.pkl', 'rb') as f:
     simulated_data = pickle.load(f)
 
-# class instantiation for real GW events
+# class instantiation for real GW events. Last two parameters are for plot windows
 GW150914 = GWSignals(signal_ref_params['GW150914'][1], GW150914_data, 2.4, 2.5)
 GW190521 = GWSignals(signal_ref_params['GW190521'][1], GW190521_data, 2.0, 2.1)
 GW200129 = GWSignals(signal_ref_params['GW200129'][1], GW200129_data, 2.0, 2.1)
