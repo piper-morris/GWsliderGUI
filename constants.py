@@ -25,7 +25,7 @@ num_params = len(params_inj)
 
 # reference parameters for real data
 # FORMAT -- 'GW name': [GPS event time, [mass1, mass2, spin plus, spin minus]]
-signal_ref_params = {'GW150914': [1126259462.4, [38.8, 33.4, -0.01, 0.0]],
+signal_ref_params = {'GW150914': [1126259462.4, [38.8, 33.0, -0.04, 0.0]],
                      'GW200129': [1264316116.4, [40.7, 34.2, 0.11, 0.0]],
                      'GW190521': [1242459857.4, [52.5, 40.4, 0.10, 0.0]],
                      'GW200224': [1266618172.4, [52.8, 43.2, 0.10, 0.0]],
